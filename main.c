@@ -105,7 +105,7 @@ void rnnDeNoise(char *in_file, char *out_file) {
 
 int main(int argc, char **argv) {
     if (argc < 2){
-        printf("Usage:./rnn_gao_new [inputWav] [RNNnoise_output]\n");
+        printf("Usage:./rnn_16k [inputWav] [RNNnoise_output]\n");
         return -1;
     }
     char *in_file = argv[1];
@@ -118,6 +118,6 @@ int main(int argc, char **argv) {
 
         return 0;
     } else {
-        printf("Usage:./rnn_gao [inputWav] [outputWav]\n");
+        printf("Usage:./rnn_16k [inputWav] [outputWav]\n");
     }
 }
